@@ -1,0 +1,17 @@
+{
+  "name": "package_a",
+  "version": "1.0.0",
+  "description": "package a dummy package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "echo \"package a preinstall\" ",
+    "install": "echo \"package a install\" ",
+    "postinstall": "echo \"package a postinstall\" "
+  },
+  "author": "James E. Marca",
+  "license": "ISC",
+  "dependencies": {
+    "package_b": "github:jmarca/package_b"
+  }
+}
